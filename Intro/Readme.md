@@ -7,3 +7,4 @@ it is daynameic type langurea
 rules of varible in the js
 types of variable 
 let , var const
+data types in js
