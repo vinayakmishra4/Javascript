@@ -19,3 +19,39 @@ console.log(age); // This will print 30 to your console, which may not be what y
 const name="Vinayak"; // This is an example of using 'const' to declare a variable that should not change
 
 console.log(name); // This will print "Vinayak" to your console
+
+const student =
+{
+    name: "John",
+    age: 20
+}
+student.name = "Jane"; // This is allowed because we are modifying a property of the object, not reassigning the variable itself
+console.log(student.name); // This will print "John" to your console
+
+
+// Practice 1:  Create the const vaibel to store the product value and print it to the console.
+const product =
+{
+    name: "pen",
+    price: 10,
+    ratinf: 4.5,
+    isdeal: true,
+    offer: "20% off"
+}
+
+console.log(product);
+
+// Practice 2: Create a const object called profile to store information shown in the picture.
+const profile = {
+  username: "shradhakhapra",
+  fullName: "Shradha Khapra",
+  isVerified: true,
+  posts: 195,
+  followers: "569K", // or 569000 if stored as a number
+  following: 4,
+  threadsHandle: "shradhakhapra",
+  role: "Entrepreneur",
+  bio: "Apna College | Ex-Microsoft, DRDO\nTo educate someone is the highest privilege❤️",
+};
+
+console.log(profile);
